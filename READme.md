@@ -1,8 +1,8 @@
 ## Live Links
 
-- **Hosted Side in Netlify** -> (https://toy-marketplace-10467.web.app/)
+- **Hosted Side in Netlify** -> (https://symphonious-kashata-5164b4.netlify.app/)
 
-- **Recorded Video** -> (https://toy-marketplace-10467.web.app/)
+- **Recorded Video** -> (https://drive.google.com/drive/folders/1m6BAetPG3X2Vlqn5wSg8F12jtegHGj99?usp=sharing/)
 
 ## About Project
 - It is a Figma to Frontend side development by ReactJS
