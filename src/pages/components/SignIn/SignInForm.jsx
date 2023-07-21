@@ -25,7 +25,7 @@ const SignInForm = () => {
 
                 {/* responsive */}
                 <div className='d-flex d-lg-none align-items-center justify-content-between'>
-                    <Button className='rounded-5 mt-3 w-50 w-lg-100 fw-semibold' variant="primary" type="submit">
+                    <Button className='rounded-5 mt-3 px-3 w-lg-100 fw-semibold' variant="primary" type="submit">
                         Sign In
                         {/* responsive */}
 
