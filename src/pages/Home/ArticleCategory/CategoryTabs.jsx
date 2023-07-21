@@ -13,7 +13,7 @@ const CategoryTabs = ({ user }) => {
         <Container className='d-flex justify-content-between gap-5'>
             <div className='w-75'>
                 <Tabs
-                    defaultActiveKey="profile"
+                    defaultActiveKey="home"
                     id="uncontrolled-tab-example"
                     className="my-5"
                 >
