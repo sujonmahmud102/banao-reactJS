@@ -1,0 +1,88 @@
+.bg-image {
+  height: 440px;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)), url('./assets/image/Rectangle1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.search-icon {
+  left: 16px;
+  top: 5px;
+}
+
+.banner-text {
+  left: 200px;
+  bottom: 80px;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.modal-close {
+  right: -10px;
+  top: -40px;
+}
+
+.card-title{
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.card-info{
+  display: flex;
+}
+
+/*  */
+
+@media (max-width: 768px) {
+  .bg-image {
+    height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)), url('./assets/image/Rectangle4.png');
+    background-size: contain;
+  }
+
+  .banner-text {
+    left: 16px;
+    bottom: 32px;
+  }
+
+  .cards {
+    border: 0 !important;
+    border-radius: 50px;
+    margin: 10px 0px;
+    box-shadow: 0 2px gray;
+  }
+  
+  .card-title{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .card-author-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .card-author-title{
+    font-weight: 600;
+    margin-bottom: 0;
+  } 
+  
+  .views{
+    margin-top: 0;
+  }
+  
+  .modal-close {
+    right: 10px;
+    top: 40px;
+  }
+  .modal-close-account{
+    right: 10px;
+    top: 16px;
+  }
+}
