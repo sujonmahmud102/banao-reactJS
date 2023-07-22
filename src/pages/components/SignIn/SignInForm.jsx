@@ -6,8 +6,6 @@ const SignInForm = () => {
         <div>
             <Form className=''>
                 <div className=''>
-
-
                     <FloatingLabel controlId="floatingPassword" label="Email">
                         <Form.Control type="email" placeholder="Email"
                             className='bg-body-tertiary' />
@@ -24,16 +22,14 @@ const SignInForm = () => {
                 </Button>
 
                 {/* responsive */}
-                <div className='d-flex d-lg-none align-items-center justify-content-between'>
-                    <Button className='rounded-5 mt-3 px-3 w-lg-100 fw-semibold' variant="primary" type="submit">
-                        Sign In
-                        {/* responsive */}
-
-                    </Button>
-                    <div className='d-lg-none d-flex align-items-center mt-3'> <Button
-
+                <div className='d-flex d-lg-none align-items-center justify-content-between mt-3'>
+                    <Button
+                        className='rounded-5 px-3 w-100 fw-semibold'
+                        variant="primary">
+                        Sign In</Button>
+                    <Button
+                        className='w-100'
                         variant='link fw-semibold text-body-secondary'>or, Create Account</Button>
-                    </div>
                 </div>
             </Form>
         </div>

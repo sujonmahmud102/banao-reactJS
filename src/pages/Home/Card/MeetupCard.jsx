@@ -14,8 +14,8 @@ const MeetupCard = () => {
 
             <Card.Body>
                 <p className='mt-2'>🗓️ Meetup</p>
-                <div className='d-flex justify-content-between align-items-center'>
-                    <h3 className='card-title w-lg-75'>Finance & Investment Elite Social Mixer @Lujiazui</h3>
+                <div className='d-flex justify-content-between align-items-start'>
+                    <h3 className='cardTitle'>Finance & Investment Elite Social Mixer @Lujiazui</h3>
 
 
                     <Dropdown align="end">
@@ -31,24 +31,27 @@ const MeetupCard = () => {
                     </Dropdown>
 
                 </div>
-                <Card.Text>
-                    <div className='d-flex gap-5'>
-                        <p><BiCalendarEvent /> Fri, 12 Oct, 2018
+
+                <div>
+                    <div className='date-location-container'>
+                        <p className='date'><BiCalendarEvent /> Fri, 12 Oct, 2018
                         </p>
-                        <p className='ms-lg-5'><CiLocationOn /> Ahmedabad, India</p>
+                        <p className='location'><CiLocationOn /> Ahmedabad, India</p>
                     </div>
-                    <Button variant="outline-danger w-100">Visit Website</Button>
-                </Card.Text>
+                    <Button variant="outline-danger w-100 mt-2 mb-4">Visit Website</Button>
+                </div>
 
 
                 <div className='d-none d-lg-block'>
                     <div className='d-flex align-items-center justify-content-between'>
                         <div className='d-flex align-items-center justify-content-center gap-2'>
                             <img src={icon3} alt="" />
-                            <h5 className='mt-3 w-100'>Ronal Jones</h5>
+                            <h5 className='card-author-title'>Ronal Jones</h5>
                         </div>
-                        <div className='d-flex gap-2'>
-                            <p><AiOutlineEye /> 1.4k views <Button variant="light" className='light ms-3'><BiSolidShareAlt /></Button></p>
+                        <div className='d-flex align-items-center justify-content-center gap-2'>
+                            <p className='views'>
+                                <AiOutlineEye /> 1.4k views <Button variant="light" className='light ms-3'><BiSolidShareAlt /></Button>
+                            </p>
                         </div>
                     </div>
                 </div>

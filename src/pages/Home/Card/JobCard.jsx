@@ -10,8 +10,8 @@ const JobCard = () => {
         <Card className='article-card my-5'>
             <Card.Body>
                 <p className='mt-2'>💼️ Job</p>
-                <div className='d-flex justify-content-between align-items-center'>
-                    <h3 className='card-title w-lg-75'>Software Developer</h3>
+                <div className='d-flex justify-content-between align-items-start'>
+                    <h3 className='cardTitle'>Software Developer</h3>
 
 
                     <Dropdown align="end">
@@ -27,23 +27,26 @@ const JobCard = () => {
                     </Dropdown>
 
                 </div>
-                <Card.Text>
-                    <div className='d-flex gap-5'>
+                <div>
+                    <div className='date-location-container'>
                         <p><BiShoppingBag /> Innovaccer Analytics Private Ltd.
                         </p>
                         <p className='ms-lg-5'><CiLocationOn /> Noida, India</p>
                     </div>
-                    <Button variant="outline-success w-100">Apply on Timesjobs</Button>
-                </Card.Text>
+                    <Button variant="outline-success w-100 mt-2 mb-4">Apply on Timesjobs</Button>
+                </div>
 
                 <div className='d-none d-lg-block'>
                     <div className='d-flex align-items-center justify-content-between'>
                         <div className='d-flex align-items-center justify-content-center gap-2'>
                             <img src={icon4} alt="" />
-                            <h5 className='mt-3 w-100'>Joseph Gray</h5>
+                            <h5 className='card-author-title'>Joseph Gray</h5>
                         </div>
-                        <div className='d-flex gap-2'>
-                            <p><AiOutlineEye /> 1.4k views <Button variant="light" className='light ms-3'><BiSolidShareAlt /></Button></p>
+
+                        <div className='d-flex align-items-center justify-content-center gap-2'>
+                            <p className='views'>
+                                <AiOutlineEye /> 1.4k views <Button variant="light" className='light ms-3'><BiSolidShareAlt /></Button>
+                            </p>
                         </div>
                     </div>
                 </div>

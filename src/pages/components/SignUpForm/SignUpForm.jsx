@@ -5,7 +5,7 @@ const SignUpForm = () => {
     return (
         <div>
             <Form className=''>
-                <div className=''>
+                <div className='w-100'>
                     <InputGroup className="">
                         {/* first name */}
                         <FloatingLabel

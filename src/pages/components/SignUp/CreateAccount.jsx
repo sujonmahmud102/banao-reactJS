@@ -30,7 +30,7 @@ const CreateAccount = ({ setSignIn, setSignUp }) => {
 
         <div className='d-flex justify-content-between'>
           {/* form */}
-          <div className='w-lg-50'>
+          <div className='w-100 w-lg-50'>
             <SignUpForm />
             <SocialSignUp
               textFb='Sign up with Facebook'

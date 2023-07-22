@@ -11,11 +11,14 @@ import RecommendGroup from '../../components/RecommendGroup/RecommendGroup';
 const CategoryTabs = ({ user }) => {
     return (
         <Container className='d-flex justify-content-between gap-5'>
-            <div className='w-75'>
+            
+            <div className='w-75 '>
+          
                 <Tabs
                     defaultActiveKey="home"
                     id="uncontrolled-tab-example"
-                    className="my-5"
+                    className="my-5 "
+                    variant='underline'
                 >
                     <Tab eventKey="home" title="All Posts(32)">
                         <ArticleCard />
@@ -36,7 +39,9 @@ const CategoryTabs = ({ user }) => {
                         <JobCard />
                     </Tab>
                 </Tabs>
+                
             </div>
+        
             <div className='mt-5'>
                 <Post user='Logged-in' />
                 <div className='mt-5'>

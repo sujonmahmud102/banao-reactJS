@@ -12,8 +12,8 @@ const ArticleCard = () => {
 
             <Card.Body>
                 <p className='mt-2'>✍️ Article</p>
-                <div className='d-flex justify-content-between align-items-center'>
-                    <p className='card-title w-lg-75'>What if famous brands had regular fonts? Meet RegulaBrands!</p>
+                <div className='d-flex justify-content-between align-items-start'>
+                    <p className='cardTitle'>What if famous brands had regular fonts? Meet RegulaBrands!</p>
 
 
                     <Dropdown align="end">
@@ -29,25 +29,27 @@ const ArticleCard = () => {
                     </Dropdown>
 
                 </div>
-                <Card.Text>
+                <p className='card-description'>
                     I’ve worked in UX for the better part of a decade. From now on, I plan to rei…
-                </Card.Text>
+                </p>
 
                 <div className='d-none d-lg-block'>
                     <div className='d-flex align-items-center justify-content-between'>
                         <div className='d-flex align-items-center justify-content-center gap-2'>
                             <img src={icon1} alt="" />
-                            <h5 className='mt-3 w-100'>Sarthak Kamra</h5>
+                            <h5 className='card-author-title'>Sarthak Kamra</h5>
                         </div>
                         <div className='d-flex align-items-center justify-content-center gap-2'>
-                            <p><AiOutlineEye /> 1.4k views <Button variant="light" className='light ms-3'><BiSolidShareAlt /></Button></p>
+                            <p className='views'>
+                                <AiOutlineEye /> 1.4k views <Button variant="light" className='light ms-3'><BiSolidShareAlt /></Button>
+                            </p>
                         </div>
                     </div>
                 </div>
 
                 {/* responsive */}
                 <div className='d-lg-none d-flex align-items-center justify-content-between'>
-                    <div className='d-flex align-items-center justify-content-center gap-2'>
+                    <div className='d-flex align-items-center justify-content-center gap-3'>
                         <img src={icon1} alt="" className='card-author-image' />
                         <div>
                             <p className='card-author-title'>Sarthak Kamra</p>
@@ -56,7 +58,7 @@ const ArticleCard = () => {
 
                     </div>
                     <div className=''>
-                        <p> <Button variant="light" className='light ms-3'><BiSolidShareAlt /> Share</Button></p>
+                        <Button variant="light" className='light'><BiSolidShareAlt /> Share</Button>
                     </div>
                 </div>
             </Card.Body>
